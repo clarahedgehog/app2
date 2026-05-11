@@ -7,7 +7,7 @@ import type { DigimonType } from "../Digimon"
 
 const DigimonFetch = () => {
 
-  const [randomDigimon, setRandomDigimon] = useState<DigimonType>(null)
+  const [randomDigimon, setRandomDigimon] = useState<DigimonType>()
   const [userGuess, setUserGuess] = useState<string>("")
   const [showResult, setShowResult] = useState(false)
 
