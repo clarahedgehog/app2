@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-digimon: "Micro 5", sans-serif;
+  --font-primary: "Orbitron", sans-serif;
+  --breakpoint-sm: 200px;
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-2xl);
+    color: #ff991a;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+  }
+
+  button {
+    @apply border border-blue-500 rounded-md cursor-pointer px-4 py-2 hover:text-amber-500 hover:bg-sky-900 bg-amber-500 text-blue-500;
+  }
+}
+
+@font-face {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+}

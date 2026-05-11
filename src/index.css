@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fcf9ef;
+  height: 100%;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+}
